@@ -1,1 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contact-info ul,
+.skills ul,
+.projects ul,
+.additional-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li,
+.skills li,
+.projects li,
+.experience li,
+.additional-info li {
+    margin-bottom: 10px;
+}
+
+.projects ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.projects li {
+    margin-bottom: 20px;
+}
+
+.projects a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
 
